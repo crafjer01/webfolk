@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: #FF5722ed;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: #962b2b;
+    text-decoration: none;
+    margin-left: 15px;
+} 
+.navbar ul li a.active{
+    color: #fff;
+} 
+
+/* web folk */
+.web {
+    background: linear-gradient(rgba(255, 87, 34, 0.5), rgba(255, 87, 34, 0.5)),
+             url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.web .folk{
+    padding-top: 7%;
+    margin-bottom: 9%;
+}
+
+.web .folk h1{
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.web .folk p{
+    letter-spacing: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.web .dream{
+    font-size: 25px;
+    color: #fff;
+}
+.web .work{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 40%;
+    width: 250px;
+    background: crimson;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.web .work:after{
+    content: '';
+    border: 21px solid crimson;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: 54px;
+    left: 42%;
+}
