@@ -1,4 +1,6 @@
-
+*,*::after,*::before{
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   padding: 0;
@@ -37,6 +39,7 @@ img{
   color: #962b2b;
   text-decoration: none;
   margin-left: 15px;
+  font-size: 16px;
 }
 .navbar ul li a.active{
   color: #fff;
@@ -285,6 +288,7 @@ img{
 .we .bul span:hover{
   background: #FF5722;
 }
+
 footer{
   text-align: center;
   background: #f2f2f2;
@@ -293,10 +297,105 @@ footer{
   font-size: 20px;
 }
 
+/* contact */
+.contact{
+  background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../images/cover-contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 5%;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.contact h2{
+  font-size: 40px;
+  font-style: italic;
+}
+
+.contact p{
+  font-size: 20px;
+}
+
+.contact .form{
+  width: 97%;
+  height: 400px;
+  margin: auto;
+}
+
+.contact .form h2{
+  color: #FF5722;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.contact .form input,
+.contact .form  textarea {
+  display: block;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  border:0;
+  padding-left: 10px;
+  color: #fff;
+  background:  hsla(14, 100%, 61%, 1);
+}
+.contact .form input[type="button"]{
+  color: #fff;
+  cursor: pointer;
+}
+.contact .form textarea{
+  height: 130px  !important;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.contact .form input::placeholder,
+.contact .form textarea::placeholder {
+  color: #fff !important;
+}
+.contact .form input::placeholder,
+.contact .form textarea::placeholder {
+  color: #fff !important;
+}
+.contact .form input::placeholder,
+.contact .form textarea::placeholder {
+  color: #fff !important;
+}
+.become{
+  background: #c7c2c221;
+  text-align: center;
+  padding-top: 2%;
+}
+.become h2{
+  color: #FF5722;
+}
+.become p{
+  padding: 0 10px;
+}
+.social-container{
+  padding-bottom: 25px;
+}
+.social{
+  width: 35px;
+height: 35px;
+display: inline-block;
+margin-right: 10px;
+}
+
 /* Mobile landscape and up */
 @media only screen and (min-width: 600px) {
   .image .img-wrapper{
     width: 50%;
+  }
+  .navbar ul li a{;
+    font-size: 20px;
+  }
+  .contact p{
+    font-size: 25px;
+  }
+  .contact .form{
+    width: 70%;
   }
 }
 
@@ -313,6 +412,12 @@ footer{
   .we .d-flex .content{
     flex-basis: 45%;
     padding: 20px;
+  }
+  .contact .form{
+    width: 55%;
+  }
+  .become p{
+    padding: 0 40px;
   }
 }
 
@@ -335,6 +440,10 @@ footer{
     width: 30%;
     display: inline-block;
     margin-bottom: 5%;
+  }
+
+  .become p{
+    padding: 0 60px;
   }
 
 }
