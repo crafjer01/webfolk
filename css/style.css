@@ -112,51 +112,51 @@ img{
   float: left;
 }
 .image .img-wrapper:nth-of-type(1){
-  background: url(../images/image-1.jpg);
+  background: url(../images/works/image-1.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(2){
-  background: url(../images/image-2.jpg);
+  background: url(../images/works/image-5.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(3){
-  background: url(../images/image-3.jpg);
+  background: url(../images/works/image-3.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(4){
-  background: url(../images/image-4.jpg);
+  background: url(../images/works/image-4.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(5){
-  background: url(../images/image-5.jpg);
+  background: url(../images/works/image-5.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(6){
-  background: url(../images/image-6.jpg);
+  background: url(../images/works/image-6.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(7){
-  background: url(../images/image-7.jpg);
+  background: url(../images/works/image-7.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(8){
-  background: url(../images/image-8.jpg);
+  background: url(../images/works/image-8.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(9){
-  background: url(../images/image-3.jpg);
+  background: url(../images/works/image-3.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(10){
-  background: url(../images/image-7.jpg);
+  background: url(../images/works/image-7.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(11){
-  background: url(../images/image-2.jpg);
+  background: url(../images/works/image-2.jpg);
   background-size: cover;
 }
 .image .img-wrapper:nth-of-type(12){
-  background: url(../images/image-6.jpg);
+  background: url(../images/works/image-6.jpg);
   background-size: cover;
 }
 
