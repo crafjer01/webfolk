@@ -298,7 +298,7 @@ footer{
 }
 
 /* contact */
-.contact{
+.contact, .book {
   background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../images/cover-contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -381,6 +381,30 @@ footer{
 height: 35px;
 display: inline-block;
 margin-right: 10px;
+}
+
+/* Servicios */
+.book-flex{
+  width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.book-flex img{
+  height: 300px;
+}
+.book-flex .text{
+  flex: 2;
+  align-self: center;
+}
+.book-flex h2{
+  color: #f52;
+}
+.book-flex p{
+  color: #212121;
+  text-align: center;
 }
 
 /* Mobile landscape and up */
